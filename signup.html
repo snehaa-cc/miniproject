@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="pro2.css">
+        <script>
+            function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  let y = document.forms["myForm"]["ppass"].value;
+  let z = document.forms["myForm"]["ffname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (y.length<6)
+  {
+    alert("password should contain atleast 6 characters")
+    return false;
+  }
+  if (z == "") {
+    alert("email must be filled out");
+    return false;
+  }
+}
+    </script>
+    </head>
+    <body>
+      <img class="backlog"src="pizza.jpg"  alt="Forest">
+        <form name="myForm" action="/action_page.php"onsubmit="return validateForm()" method="post">
+        <img class="loginim"src="red.jpg" alt="Forest">
+        <img class="loginim1"src="spoonlogo.png" alt="Forest">
+        <label for="name"><a class="name"><b>Username</b></a></label>
+        <input class="name1"name="fname" type="text" placeholder="Enter Username" >
+        <br>
+        <label for="name"><b class="pass">Password</b></label>
+        <input class="pass1"name="ppass" type="text" placeholder="Enter Password" name="uname">
+        <br>
+        <label for="name"><b class="email1">Email</b></label>
+        <input class="email"name="ffname" type="text" placeholder="Email" name="uname">
+        <br>
+        <button class="sub1"type="submit"  >Create account</button>
+        <br>
+        <label for="name" class="check">Remember me</label>
+        <input class="check1"type="checkbox" name="uname">
+        <b class="zomato"><i>Zomatt</i></b> 
+        </form> 
+        <span class="cross" onclick="closes()">&#10006;</span>
+        <script> function closes(){
+          
+    if(confirm("window will be closed?")){
+      close();
+    
+  }
+        }
+        
+           function ope()
+            {
+                window.open("file:///C:/Users/sneha/OneDrive/Desktop/project%201/home.html");
+            }
+        
+        </script>
+       
+    </body>
+</html>

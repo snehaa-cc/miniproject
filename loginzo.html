@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="pro2.css">
+        <script>
+            function validateForm() {
+  let x = document.forms["myForm1"]["fname"].value;
+  let y = document.forms["myForm1"]["ppass"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (y.length<6)
+  {
+    alert("password should contain atleast 6 characters")
+    return false;
+  }
+}
+function closeForm() 
+   {
+    if(confirm("window will be closed?")){
+      close();
+    }
+  }
+  function ope()
+            {
+                window.open("file:///C:/Users/sneha/OneDrive/Desktop/project%201/home.html");
+            }
+        
+    </script>
+    </head>
+    <body>
+      <img class="backlog"src="pizza.jpg"  alt="Forest">
+        <div id="myForm">
+        <form class=""name="myForm1" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <img class="loginim"src="red.jpg" alt="Forest">
+        <img class="loginim1"src="spoonlogo.png" alt="Forest">
+        <label for="name"><a class="name"><b>Username</b></a></label>
+        <input class="name1" type="text" name="fname" placeholder="Enter Username" name="uname">
+        <br>
+        <label for="name"><b class="pass">Password</b></label>
+        <input class="pass1" type="text" name="ppass" placeholder="Enter Password" name="uname">
+        <br>
+        <button class="sub"type="submit"><a href="home.html" class="yy">Login</a></button>
+        <br>
+        <button type="button" class="subclose" onclick="closeForm();return false;">Close</button>
+        <b class="zomato"><i>Zomatt</i></b>  
+        </form>
+        </div>
+        
+    </body>
+</html>

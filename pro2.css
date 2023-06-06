@@ -1,0 +1,511 @@
+
+.sne
+{
+    background-repeat: no-repeat;
+    background-size:100%;
+    width:100%;
+    height:100%;
+
+  filter: blur(3.5px);
+}
+.ss
+{
+    font-size: 750%;
+    color:rgb(255, 31, 31);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom:50%;
+    top:15%;
+    right:30%;
+    left:32%;
+    text-align: center;
+}
+.padd
+{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 500px;
+    position: absolute;
+    top:34%;
+    left:30%;
+    background-color: aliceblue;
+  }
+
+
+.ssk
+{
+    font-size: 200%;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:40%;
+    top:48%;
+    right:60%;
+    left:-0.3%;
+}
+.pad
+{
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-right: 92.5%;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    position: absolute;
+    bottom: 90%;   
+}
+.lo
+{
+    font-size: 140%;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:8%;
+    top:0%;
+    right:68%;
+    left:76%;
+}
+.lo:hover{
+    background:white;
+}
+
+.loo
+{
+    font-size: 140%;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:8%;
+    top:0%;
+    right:64%;
+    left:68%;  
+}
+.loo:hover{
+    background:white;
+}
+.adnew
+{
+    font-size: 140%;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    bottom:8%;
+    top:0%;
+    right:70%;
+    left:85%;  
+}
+.adnew:hover{
+    background:white;
+}
+.decor
+{
+    text-decoration: none;
+    color: white;
+}
+.loginim
+{
+    width:50%;
+    height:75%;
+    position:absolute;
+    left:26%;
+    bottom:10%;
+    background-repeat: no-repeat;  
+    
+}
+.loginim1
+{
+    width:3%;
+    height:6%;
+    position:absolute;
+    left:89%;
+    bottom:92.5%;
+    background-repeat: no-repeat;
+}
+.name
+{
+    position: absolute;
+    top:32%;
+    left:33%;
+    font-size: 195%;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pass{
+    position: absolute;
+    top:43%;
+    left:33%;
+    font-size: 195%;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.zomato
+{
+    position: absolute;
+    top:2%;
+    left:92%;
+    font-size: 150%;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cross{
+    position: absolute;
+    top:14.5%;
+    left:74.8%;
+    font-size: 100%;
+    cursor:pointer;
+
+}
+.cross1{
+    position: absolute;
+    top:3.2%;
+    left:97%;
+    font-size: 100%;
+    cursor:pointer;
+
+
+}
+.cross1:hover{
+    background:rgb(255, 255, 255);
+    
+}
+.cross:hover{
+    background:rgb(255, 255, 255);
+    
+}
+.name1
+{
+    position: absolute;
+    top:33%;
+    left:45%;
+    font-size: 135%;
+    color:rgb(0, 0, 0);
+    width:23%;
+}
+.pass1{
+    position: absolute;
+    top:44%;
+    left:45%;
+    font-size: 135%;
+    color:rgb(0, 0, 0);
+    width:23%;
+}
+
+.sub
+{
+    position: absolute;
+    top:54%;
+    left:33%;
+    font-size: 160%;
+    width: 35%;
+    border:none;
+    
+}
+.yy
+{
+    text-decoration: none;
+    color: black;
+}
+.sub:hover{
+    background-color:silver;
+}
+.sub1:hover{
+    background-color:silver;
+}
+.subclose
+{
+    
+    position: absolute;
+    top:64%;
+    left:33%;
+    font-size: 160%;
+    width: 35%;
+    border:none;
+    cursor:pointer;
+
+}
+.subclose:hover{
+background-color:silver;
+}
+.sub1
+{
+    position: absolute;
+    top:64%;
+    left:33%;
+    font-size: 160%;
+    width: 35%;
+    border:none;
+}
+.check
+{
+    position: absolute;
+    top:73.5%;
+    left:34.5%;
+    font-size: 120%;
+    width: 35.3%;  
+    color:rgb(255, 255, 255); 
+}
+.check1
+{
+    position: absolute;
+    top:74%;
+    left:15.7%;
+    font-size: 120%;
+    width: 35.3%;  
+    color:rgb(255, 255, 255); 
+}
+.email
+{
+    position: absolute;
+    top:55%;
+    left:45%;
+    font-size: 135%;
+    width: 23%;
+    color:black;
+}
+.email1
+{
+    position: absolute;
+    top:54%;
+    left:33%;
+    font-size: 160%;
+    font-size: 195%;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.checkl
+{
+    position: absolute;
+    top:63.5%;
+    left:34.5%;
+    font-size: 120%;
+    width: 35.3%;  
+    color:rgb(255, 255, 255); 
+}
+.check1l
+{
+    position: absolute;
+    top:64%;
+    left:15.7%;
+    font-size: 120%;
+    width: 35.3%;  
+    color:rgb(255, 255, 255); 
+}
+.dropp
+{
+    font-size: 140%;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    position: absolute;
+    bottom:7%;
+    top:0%;
+    right:70%;
+    left:91%;  
+}
+.d:hover{
+    background:rgb(255, 31, 31);
+    font-size: 112%;
+}
+.deco:hover{
+    background:rgb(255, 31, 31);
+    font-size: 112%;
+}
+.about1
+{
+    background-repeat: no-repeat;
+    background-size:110%;
+    width:100%;
+    height:100%;
+}
+.zomato1
+{
+    position: absolute;
+    top:100%;
+    left:92%;
+    font-size: 150%;
+    color:rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.betterfood
+{
+    position: absolute;
+    top:70%;
+    left:20%;
+    font-size: 370%;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#slider
+{
+    overflow:hidden;
+}
+.slider figure 
+{ 
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation:20s slider infinite;
+}
+.slider figure img
+{
+  float:left;
+  width:20%;
+}
+@keyframes slider
+{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%
+    {
+        left:-100%
+    }
+    50%
+    {
+        left:-200%
+    }
+    70%
+    {
+        left:-200%
+    }
+    75% 
+    {
+        left:-300%
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left: -400%;
+    }
+     
+}
+.para
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: black;
+    text-align: justify;
+}
+.imrad
+{
+    border-radius: 8px;
+}
+.head
+{
+    font-family:cursive;
+    font-size: 100%;
+    color: black;
+}
+.who
+{
+    font-family:cursive;
+    font-size: 303%;
+    color: black;
+}
+.whoim
+{
+    position:absolute;
+    size:50%;
+    border-radius: 8px;
+    height: 57%;
+    width: 49%;
+}
+.whopara
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: black;
+    position:absolute;
+    left:51%;
+    bottom:-259%;
+    text-align: justify;
+}
+.imra
+{
+    border-radius: 8px;
+    position:absolute;
+    top:380%;
+    
+}
+.selvi
+{
+    font-family:cursive;
+    font-size: 303%;
+    color: black;
+    position: absolute;
+    top:357%;
+} 
+.imr
+{
+    border-radius: 8px;
+    position:absolute;
+    top:380%;
+    left:48.5%; 
+}
+.im
+{
+    border-radius: 8px;
+    position:absolute;
+    top:380%;
+    left:74.5%;  
+}
+.i
+{
+    border-radius: 8px;
+    position:absolute;
+    top:435.5%;
+    left:48.5%;
+}
+.wrap
+{
+    display: flex;  
+  flex-wrap: wrap;
+  background: transparent;
+}
+
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .backlog
+  {
+    background-repeat: no-repeat;
+    background-size:100%;
+    width:100%;
+    height:100%;
+  }
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
